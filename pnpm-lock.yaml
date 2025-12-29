@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@codemirror/language':
-        specifier: github:lishid/cm-language
-        version: https://codeload.github.com/lishid/cm-language/tar.gz/cc6a2cc30288db6be3f879ddf0e3ef64f14ed6ab
+        specifier: 6.11.3
+        version: 6.11.3
       '@codemirror/state':
         specifier: ^6.1.2
         version: 6.4.0
@@ -112,9 +112,8 @@ packages:
     resolution: {integrity: sha512-acGdbYSfp2WheJoJm/EBBBLh/ID8KDc64ISZ9DYtBmC8/Q204PZJLHyzeB5qMzJ5trcOkybd78M4x2KWsUq++A==}
     engines: {node: '>=6.9.0'}
 
-  '@codemirror/language@https://codeload.github.com/lishid/cm-language/tar.gz/cc6a2cc30288db6be3f879ddf0e3ef64f14ed6ab':
-    resolution: {tarball: https://codeload.github.com/lishid/cm-language/tar.gz/cc6a2cc30288db6be3f879ddf0e3ef64f14ed6ab}
-    version: 6.9.2
+  '@codemirror/language@6.11.3':
+    resolution: {integrity: sha512-9HBM2XnwDj7fnu0551HkGdrUrrqmYq/WC5iv6nbY2WdicXdGbhR/gfbZOH73Aqj4351alY1+aoG9rCNfiwS1RA==}
 
   '@codemirror/state@6.4.0':
     resolution: {integrity: sha512-hm8XshYj5Fo30Bb922QX9hXB/bxOAVH+qaqHBzw5TKa72vOeslyGwd4X8M0c1dJ9JqxlaMceOQ8RsL9tC7gU0A==}
@@ -1769,7 +1768,7 @@ snapshots:
       chalk: 2.4.2
       js-tokens: 4.0.0
 
-  '@codemirror/language@https://codeload.github.com/lishid/cm-language/tar.gz/cc6a2cc30288db6be3f879ddf0e3ef64f14ed6ab':
+  '@codemirror/language@6.11.3':
     dependencies:
       '@codemirror/state': 6.4.0
       '@codemirror/view': 6.23.1
